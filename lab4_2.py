@@ -7,7 +7,7 @@ import os
 print(f"Provisioning a virtual machine in Azure using Python.")
 
 # Acquire credential object using CLI-based authentication.
-credential = AzureCliCredential()
+credential = AzureCliCredential()#This is a test comment
 
 # Retrieve subscription ID from environment variable.
 subscription_id = os.environ["AZURE_SUBSCRIPTION_ID"] = "595eaf3c-687f-419f-8dd3-35307403d329"
